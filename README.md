@@ -28,3 +28,4 @@ Vagrant 1.6.3
 Oracle Virtual Box Version 4.3.12 r93733
 
 
+posted stackoverflow http://stackoverflow.com/questions/24646881/vagrant-provision-success-but-not-installed
