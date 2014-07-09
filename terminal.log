@@ -1,0 +1,7 @@
+C:\work\vagrant-on-cent65>vagrant ssh
+[vagrant@vagrant-centos65 ~]$ vagrant plugin list
+vagrant-login (1.0.1, system)
+vagrant-share (1.1.0, system)
+[vagrant@vagrant-centos65 ~]$ vagrant plugin install vagrant-vbguest
+Installing the 'vagrant-vbguest' plugin. This can take a few minutes...
+Installed the plugin 'vagrant-vbguest (0.10.0)'!

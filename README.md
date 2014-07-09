@@ -3,13 +3,16 @@
 
 ## Files
 
-README.md	: this file.
-
 Vagrantfile	: target Vagrantfile
 
 stdout.log	: vagrant up log(stdout)
 
 debug.log	: vagrant up log(stderrout)
+
+terminal.log	: vagrant ssh log(provision check)
+
+README.md	: this file.
+
 
 ## vagrant up
 
