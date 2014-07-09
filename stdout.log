@@ -1,0 +1,128 @@
+Bringing machine 'default' up with 'virtualbox' provider...
+==> default: Importing base box 'CentOS_6.5_x86_64'...
+[KProgress: 20%[KProgress: 40%[KProgress: 60%[KProgress: 80%[K==> default: Matching MAC address for NAT networking...
+==> default: Setting the name of the VM: vagrant-on-cent65_default_1404886189286_51120
+==> default: Clearing any previously set network interfaces...
+==> default: Preparing network interfaces based on configuration...
+    default: Adapter 1: nat
+==> default: Forwarding ports...
+    default: 22 => 2222 (adapter 1)
+==> default: Booting VM...
+==> default: Waiting for machine to boot. This may take a few minutes...
+    default: SSH address: 127.0.0.1:2222
+    default: SSH username: vagrant
+    default: SSH auth method: private key
+    default: Warning: Connection timeout. Retrying...
+    default: Warning: Remote connection disconnect. Retrying...
+==> default: Machine booted and ready!
+GuestAdditions versions on your host (4.3.12) and guest (4.3.6) do not match.
+Loaded plugins: fastestmirror, versionlock
+Determining fastest mirrors
+ * base: www.ftp.ne.jp
+ * epel: ftp.kddilabs.jp
+ * extras: www.ftp.ne.jp
+ * updates: ftp.iij.ad.jp
+http://ftp.kddilabs.jp/Linux/packages/fedora/epel/6/x86_64/repodata/repomd.xml: [Errno -1] repomd.xml does not match metalink for epel
+Trying other mirror.
+Setting up Install Process
+Package gcc-4.4.7-4.el6.x86_64 already installed and latest version
+Package 1:make-3.81-20.el6.x86_64 already installed and latest version
+Package 4:perl-5.10.1-136.el6.x86_64 already installed and latest version
+Resolving Dependencies
+--> Running transaction check
+---> Package kernel-devel.x86_64 0:2.6.32-431.3.1.el6 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package            Arch         Version                    Repository     Size
+================================================================================
+Installing:
+ kernel-devel       x86_64       2.6.32-431.3.1.el6         updates       8.8 M
+
+Transaction Summary
+================================================================================
+Install       1 Package(s)
+
+Total download size: 8.8 M
+Installed size: 24 M
+Downloading Packages:
+Running rpm_check_debug
+Running Transaction Test
+Transaction Test Succeeded
+Running Transaction
+  Installing : kernel-devel-2.6.32-431.3.1.el6.x86_64                       1/1 
+  Verifying  : kernel-devel-2.6.32-431.3.1.el6.x86_64                       1/1 
+
+Installed:
+  kernel-devel.x86_64 0:2.6.32-431.3.1.el6                                      
+
+Complete!
+Copy iso file C:\Program Files/Oracle/VirtualBox/VBoxGuestAdditions.iso into the box /tmp/VBoxGuestAdditions.iso
+Installing Virtualbox Guest Additions 4.3.12 - guest version is 4.3.6
+Verifying archive integrity... All good.
+Uncompressing VirtualBox 4.3.12 Guest Additions for Linux............
+VirtualBox Guest Additions installer
+Removing installed version 4.3.6 of VirtualBox Guest Additions...
+Copying additional installer modules ...
+Installing additional modules ...
+Removing existing VirtualBox non-DKMS kernel modules[  OK  ]
+Building the VirtualBox Guest Additions kernel modules
+Building the main Guest Additions module[  OK  ]
+Building the shared folder support module[  OK  ]
+Building the OpenGL support module[  OK  ]
+Doing non-kernel setup of the Guest Additions[  OK  ]
+You should restart your guest to make sure the new modules are actually used
+
+Installing the Window System drivers
+Could not find the X.Org or XFree86 Window System, skipping.
+An error occurred during installation of VirtualBox Guest Additions 4.3.12. Some functionality may not work as intended.
+In most cases it is OK that the "Window System drivers" installation failed.
+==> default: Checking for guest additions in VM...
+==> default: Mounting shared folders...
+    default: /vagrant => C:/work/vagrant-on-cent65
+==> default: Running provisioner: shell...
+    default: Running: inline script
+==> default: Loaded plugins: fastestmirror, versionlock
+==> default: Setting up Local Package Process
+==> default: Examining /var/tmp/yum-root-xqSUgO/vagrant_1.6.3_x86_64.rpm: 1:vagrant-1.6.3-1.x86_64
+==> default: Marking /var/tmp/yum-root-xqSUgO/vagrant_1.6.3_x86_64.rpm to be installed
+==> default: Loading mirror speeds from cached hostfile
+==> default:  * base: www.ftp.ne.jp
+==> default:  * epel: ftp.kddilabs.jp
+==> default:  * extras: www.ftp.ne.jp
+==> default:  * updates: ftp.iij.ad.jp
+==> default: Resolving Dependencies
+==> default: --> Running transaction check
+==> default: ---> Package vagrant.x86_64 1:1.6.3-1 will be installed
+==> default: --> Finished Dependency Resolution
+==> default: 
+==> default: Dependencies Resolved
+==> default: 
+==> default: ================================================================================
+==> default:  Package       Arch         Version           Repository                   Size
+==> default: ================================================================================
+==> default: Installing:
+==> default:  vagrant       x86_64       1:1.6.3-1         /vagrant_1.6.3_x86_64       149 M
+==> default: 
+==> default: Transaction Summary
+==> default: ================================================================================
+==> default: Install       1 Package(s)
+==> default: Total size: 149 M
+==> default: Installed size: 149 M
+==> default: Downloading Packages:
+==> default: Running rpm_check_debug
+==> default: Running Transaction Test
+==> default: Transaction Test Succeeded
+==> default: Running Transaction
+==> default:   Installing : 1:vagrant-1.6.3-1.x86_64                                     1/1
+==> default:  
+==> default:   Verifying  : 1:vagrant-1.6.3-1.x86_64                                     1/1
+==> default:  
+==> default: 
+==> default: Installed:
+==> default:   vagrant.x86_64 1:1.6.3-1                                                      
+==> default: Complete!
+==> default: Installing the 'vagrant-vbguest' plugin. This can take a few minutes...
+==> default: Installed the plugin 'vagrant-vbguest (0.10.0)'!
