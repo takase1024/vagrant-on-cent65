@@ -1,18 +1,22 @@
-﻿azure
+﻿Vagrant provion test
 =====
 
-Vagrant Azure環境構築定義
+## Files
+
+README.md	: this file.
+Vagrantfile	: target Vagrantfile
+stdout.log	: vagrant up log(stdout)
+debug.log	: vagrant up log(stderrout)
+
+## vagrant up
+
+vagrant up --debug 2>debug.log >stdout.log
 
 
-下記を参考に構成
-https://github.com/ydnjp/jenkins-with-docker-demo
+## environment
 
-証明書ファイルはローカルパスをハードコードしているので予め準備が必要
+OS Windows 7 professional editon 32bit
+Vagrant 1.6.3
+Oracle Virtual Box Version 4.3.12 r93733
 
-
-不具合あり
-
-１、Jenkins サンプルJOB実行でエラー
-
-nodejsの問題と思われるので、対処保留
 
